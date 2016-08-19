@@ -1,0 +1,41 @@
+{
+  "name": "get-4byte-chars",
+  "description": "Get all 4-byte characters form a string",
+  "keywords": [
+    "byte",
+    "bytes",
+    "size",
+    "char",
+    "character",
+    "get",
+    "filter",
+    "string",
+    "unicode",
+    "utf8",
+    "utf-8",
+    "code-point",
+    "emoji"
+  ],
+  "main": "browser.js",
+  "moduleType": "globals",
+  "homepage": "https://github.com/shinnn/get-4byte-chars",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/get-4byte-chars.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "is-4byte-char": "^1.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
