@@ -33,7 +33,7 @@ bower install get-4byte-chars
 
 *str*: `String`  
 *option*: `Object`  
-Return: `Boolean`
+Return: `Array`
 
 It detects characters that costs 4 bytes in [UTF-8](https://tools.ietf.org/html/rfc3629) from a given string, and returns them as an array.
 
@@ -46,10 +46,10 @@ Omit all duplicated characters from result.
 
 ```javascript
 get4byteChars('🌊🌊 \😺/ 🌊🌊');
-//=> ['🌊']
+//=> ['🌊', '😺']
 
 get4byteChars('🌊🌊 \😺/ 🌊🌊', {unique: false});
-//=> ['🌊', '🌊', '🌊', '🌊']
+//=> ['🌊', '🌊', '😺', '🌊', '🌊']
 ```
 
 ## License
