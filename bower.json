@@ -18,10 +18,9 @@
   ],
   "main": "browser.js",
   "moduleType": "globals",
-  "homepage": "https://github.com/shinnn/get-4byte-chars",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shinnn/get-4byte-chars.git"
+    "url": "https://github.com/shinnn/get-4byte-chars.git"
   },
   "authors": [
     "Shinnosuke Watanabe (https://github.com/shinnn)"
